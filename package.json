@@ -1,0 +1,33 @@
+{
+  "name": "usa-number",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc --outdir build",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "dotenv": "^16.0.0",
+    "eslint-config-google": "latest",
+    "express": "^4.17.3",
+    "twilio": "^3.75.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "@types/twilio": "^3.19.3",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "nodemon": "^2.0.15",
+    "prettier": "2.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
