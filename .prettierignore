@@ -5,3 +5,4 @@ build
 .pnp.cjs
 yarn.lock
 .pnp.loader.mjs
+.env
