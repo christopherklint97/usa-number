@@ -3,8 +3,8 @@
   "packageManager": "yarn@3.2.0",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "tsc --outdir ./build",
-    "start": "node ./build/index.ts",
+    "build": "tsc --outdir build",
+    "start": "node build/index.js",
     "postinstall": "husky install"
   },
   "dependencies": {
