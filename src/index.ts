@@ -22,9 +22,9 @@ app.post("/sms", (req, res) => {
 app.get("/", (req, res) => {
   twilioClient.messages
     .create({
-      body: "This is the ship that made the Kessel Run in fourteen parsecs?",
-      from: "+15017122661",
-      to: "+15558675310",
+      from: "whatsapp:+14155238886",
+      body: "Hello there!",
+      to: "whatsapp:+46765587413",
     })
     .then((message) => console.log(message.sid));
   res.send("Express + TypeScript Server");
