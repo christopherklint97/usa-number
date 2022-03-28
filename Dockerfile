@@ -6,3 +6,5 @@ WORKDIR /app
 COPY . .
 
 RUN yarn build
+
+RUN yarn start
