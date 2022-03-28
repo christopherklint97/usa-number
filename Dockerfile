@@ -7,4 +7,4 @@ COPY . .
 
 RUN yarn build
 
-RUN yarn start
+CMD ["yarn", "start"]
