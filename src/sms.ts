@@ -1,17 +1,28 @@
 import "dotenv/config";
-import { app } from "index";
-import createTwilioClient, { twiml } from "twilio";
+import { Router } from "express";
+import sendgrid from "@sendgrid/mail";
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const twilioClient = createTwilioClient(accountSid, authToken);
+const sendgridApiKey = process.env.SENDGRID_API_KEY;
+sendgrid.setApiKey(sendgridApiKey || "");
 
-app.post("/sms", (_, res) => {
-  const { MessagingResponse } = twiml;
-  const messagingResponse = new MessagingResponse();
+const router = Router();
 
-  messagingResponse.message("The Robots are coming! Head for the hills!");
+router.post("/", async (req, res) => {
+  const mail = {
+    to: "christopher.klint@gmail.com",
+    from: "christopher.klint@gmail.com",
+    subject: "Verification code sent to number +1-951-226-0338",
+    text: req.body.Body,
+  };
+
+  try {
+    await sendgrid.send(mail);
+  } catch (e: any) {
+    console.log("error: ", e);
+  }
 
   res.writeHead(200, { "Content-Type": "text/xml" });
-  res.end(messagingResponse.toString());
+  res.end();
 });
+
+export { router as smsRouter };
