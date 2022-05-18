@@ -11,7 +11,7 @@ router.post("/", async (req, res) => {
   const mail = {
     to: "christopher.klint@gmail.com",
     from: "christopher.klint@gmail.com",
-    subject: "Verification code sent to number +1-951-226-0338",
+    subject: "Text message forwarded successfully",
     text: req.body.Body,
   };
 

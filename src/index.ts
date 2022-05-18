@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 export { app };
 
 app.get("/", (_, res) => {
-  res.send("<h1>Welcome to my USA phone number</h1>");
+  res.send("<h1>Welcome to my phone numbers</h1>");
 });
 
 app.use("/sms", smsRouter);
