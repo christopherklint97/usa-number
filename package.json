@@ -12,7 +12,7 @@
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "body-parser": "1.19.2",
-    "dotenv": "16.0.0",
+    "dotenv": "16.0.2",
     "eslint-config-google": "latest",
     "express": "4.17.3"
   },
