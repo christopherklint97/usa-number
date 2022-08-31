@@ -8,7 +8,7 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@sendgrid/mail": "7.6.2",
+    "@sendgrid/mail": "7.7.0",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "body-parser": "1.19.2",
