@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sendgrid/mail", "npm:7.7.0"],\
             ["@types/body-parser", "npm:1.19.2"],\
             ["@types/express", "npm:4.17.17"],\
-            ["@types/node", "npm:18.17.12"],\
+            ["@types/node", "npm:18.17.14"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:5.15.0"],\
             ["@typescript-eslint/parser", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:5.15.0"],\
             ["body-parser", "npm:1.20.2"],\
@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:14.0.1"],\
             ["nodemon", "npm:3.0.1"],\
-            ["prettier", "npm:3.0.2"],\
+            ["prettier", "npm:3.0.3"],\
             ["ts-node", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
@@ -398,10 +398,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.17.12", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.17.12-b09ca14003-79f8bcca30.zip/node_modules/@types/node/",\
+        ["npm:18.17.14", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.17.14-2f1e316eeb-f96ce1e588.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.17.12"]\
+            ["@types/node", "npm:18.17.14"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3109,10 +3109,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:3.0.2", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-3.0.2-2cbecb9037-118b59ddb6.zip/node_modules/prettier/",\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.0.2"]\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3706,7 +3706,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:18.17.12"],\
+            ["@types/node", "npm:18.17.14"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -3880,7 +3880,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sendgrid/mail", "npm:7.7.0"],\
             ["@types/body-parser", "npm:1.19.2"],\
             ["@types/express", "npm:4.17.17"],\
-            ["@types/node", "npm:18.17.12"],\
+            ["@types/node", "npm:18.17.14"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:5.15.0"],\
             ["@typescript-eslint/parser", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:5.15.0"],\
             ["body-parser", "npm:1.20.2"],\
@@ -3892,7 +3892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:14.0.1"],\
             ["nodemon", "npm:3.0.1"],\
-            ["prettier", "npm:3.0.2"],\
+            ["prettier", "npm:3.0.3"],\
             ["ts-node", "virtual:2170e84ca242ae23cdd83ba7a38e40980eb5da63873fa26385c56f327dd8c0d7b505d8e00a39566401f0b97bd2e3897a47611503b22322f44194a64b54445566#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
